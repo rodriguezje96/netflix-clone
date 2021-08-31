@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
+import "./Row.css";
 
-const baseUrl = 'https://image.tmdb.org/t/p/original'
-
+const baseUrl = 'https://image.tmdb.org/t/p/w185'
 function Row({ title, fetchUrl }) {
     const [movies, setMovies] = useState([]);
 
