@@ -3,7 +3,7 @@ import axios from './axios';
 import "./Row.css";
 
 const baseUrl = 'https://image.tmdb.org/t/p/w185'
-function Row({ title, fetchUrl, isLargeRow }) {
+function Row({ title, fetchUrl }) {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
