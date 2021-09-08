@@ -21,10 +21,10 @@
     transition: transform 450ms;
 }
 
-img {
+.img-poster {
     margin: 4px 10px;
 }
 
-img:hover {
+.img-poster:hover {
     transform: scale(1.08);
 }
