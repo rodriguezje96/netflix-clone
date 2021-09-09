@@ -27,4 +27,5 @@
 
 .img-poster:hover {
     transform: scale(1.08);
+    transition: 1s;
 }

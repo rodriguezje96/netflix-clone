@@ -26,6 +26,7 @@ height: 190px;
 }
 
 .banner-button {
+    height: 30px;
      cursor: pointer;
      color: #fff;
      outline: none;
